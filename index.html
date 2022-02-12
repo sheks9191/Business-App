@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Business Status</h1>
+        <form id="business-status">
+            <div>
+                <label for="cost-price">Cost Price</label>
+                <input type="number" id="cost-price" placeholder="Naira" required>
+            </div>
+
+             <div>
+                <label for="selling-price">Selling Price</label>
+                <input type="number" id="selling-price" placeholder="Naira" required >
+            </div>
+
+             <div>
+                <label for="status"><span class="profit">Profit</span> | <span class="loss">Loss</span></label>
+                <input type="number" id="status" placeholder="Naira">
+            </div>
+
+             <div>
+                <input type="submit" value="submit" class="btn">
+            </div>
+        </form>
+
+        <!--Result-->
+
+            <div>
+                <label for="result"><span class="profit">Percent-Profit</span> | <span class="loss">Percent-Loss</span></label>
+                <input type="number" id="result" placeholder="%">
+            </div>
+    </div>
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
